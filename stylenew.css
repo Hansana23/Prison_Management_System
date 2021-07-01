@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top: 50px;
+    background-image: linear-gradient(red, yellow);
+    height:200px;
+}
+.link{
+    display:inline-block;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding: 20px 50px;
+    border-top: 10px solid yellow;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+}
+button{
+    display:block;
+    font-size: 25px;
+    margin-top:20px;
+    width:300px;
+    border:5px solid goldenrod;
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+.content{
+    
+    display:flex;
+    margin:100px 0;
+
+}
+.box{
+   
+    width:400px;
+    height:450px;
+    margin-left: 20px;
+    border-radius:10px;
+   
+
+}
+.box-heading{
+ 
+    padding:20px 50px;
+    text-align: center;
+    font-size:30px;
+    height:150px;
+   
+}
+.box-content{
+    padding-left:50px;
+}
+#admin-box .box-heading{
+    background-image: linear-gradient(blue, yellow);
+
+}
+#admin-box{
+    height:550px;
+    border-top:10px solid yellow;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid blue;
+    border-right: 10px solid blue;
+
+}
+#prison-box{
+    height:550px;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-top:10px solid yellow;
+    border-bottom: 10px solid yellow;
+    border-left:10px solid green;
+    border-right:10px solid green;
+
+}
+#jailor-box{
+    height:550px;
+    border-top:10px solid yellow;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+
+
+}
+#prison-box .box-heading{
+    background-image: linear-gradient(green, yellow);
+
+}
+#jailor-box .box-heading{
+    background-image: linear-gradient(red, yellow);
+
+}
+#logout{
+    margin-left:1100px;
+    width:200px;
+    border-radius: 30px;
+}

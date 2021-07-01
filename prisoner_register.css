@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+}
+.form-box{
+	width: 500px;
+	height: 1050px;
+	position: relative;
+	margin: 6% auto;
+	background: lightblue;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+/*Style the form*/
+.form{
+	top:180px;
+	position: absolute;
+	width: 200px;
+
+}
+
+/*Style the input fields*/
+.input-field{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px;
+		border-radius: 10px;
+		box-sizing: border-box;
+}
+
+/*style the sunmit button*/
+input[type=submit] {
+		width: 100%;
+		background-color:#63B4B9;
+		color: black;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+
+/*style the reset*/
+input[type=reset] {
+		width: 100%;
+		background-color: #63B4B9;
+		color: black;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+input[type=reset]:hover {
+		background-color: #FF0000;
+	}
+
+
+
+/*style the error massage*/
+.error {
+    background-color: red;
+    border: none;
+    display: block;
+    margin: 8px 0;
+    padding: 10px 16px;
+	border-radius: 5px;
+	color: white;
+}
+.hide {
+    display: none;
+}
+#home-btn{
+    margin-left:500px;
+	margin-top:30px;
+    padding:10px 15px;
+    width:200px;
+	height:60px;
+    background-image: linear-gradient(red, yellow);
+    color:black;
+    font-weight: bold;
+	font-size:25px;
+	border:3px solid red;
+
+}
+.header{
+	display:flex;
+	background-color: black;
+	height:160px;
+}
+#heading{
+	border-top:5px solid yellow;
+	border-bottom:5px solid yellow;
+	border-left:5px solid white;
+	border-right:5px solid white;
+	width:500px;
+	height:70px;
+	padding:20px;
+	font-size:50px;
+	font-weight: bold;
+	margin-left:50px;
+	margin-top:20px;
+	color:white;
+}

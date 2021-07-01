@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#home-btn{
+    margin-left:500px;
+	margin-top:30px;
+    padding:10px 15px;
+    width:200px;
+	height:60px;
+    background-image: linear-gradient(red, yellow);
+    color:black;
+    font-weight: bold;
+	font-size:25px;
+	border:3px solid red;
+
+}
+.header{
+	display:flex;
+	background-color: black;
+	height:160px;
+}
+#heading{
+	border-top:5px solid yellow;
+	border-bottom:5px solid yellow;
+	border-left:5px solid white;
+	border-right:5px solid white;
+	width:500px;
+	height:100px;
+	padding:20px;
+    padding-left:60px;
+	font-size:50px;
+	font-weight: bold;
+	margin-left:50px;
+	margin-top:20px;
+	color:white;
+}
+.user-list{
+    width:900px;
+    margin:50px 200px;
+}
+th{
+    background-color: hotpink;
+    height:50px;
+    font-size:25px;
+}
+tr{
+    height:50px;
+}
+td{
+    text-align: center;
+    font-size: 20px;
+}
+.search-box{
+    background-color: gray;
+    padding:50px 50px;
+    margin:50px 200px;
+    border-radius: 20px;
+    width:600px;
+}
+.search-box p{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#ID{
+    width:200px;
+    height:35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top:25px;
+    font-size:20px;
+}
+button{
+    width:100px;
+    height:30px;
+    margin-left: 30px;
+    margin-top:25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: dimgray;
+    font-size:15px;
+}
