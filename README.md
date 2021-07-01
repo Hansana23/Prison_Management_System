@@ -1,6 +1,6 @@
-#Prison_Management_System
+# Prison_Management_System
 
-##ReadMe Prison Management System Guidelines…
+## ReadMe Prison Management System Guidelines…
 
  The following accounts we have already created. There are 2 accounts we created. These 2 can login as an officer. They can access “form login page” and update the relevant data.) 
  
